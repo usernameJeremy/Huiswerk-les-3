@@ -1,0 +1,70 @@
+.Top-section-navbar {
+    background-color: #4845E4;
+    max-width: 1200px;
+
+}
+.nav-bar {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content:space-evenly;
+    color: white;
+    margin-right: 10px;
+}
+.nav {
+
+}
+.header-titel {
+    text-align: center;
+    padding: 80px;
+
+}
+.squiggle-line{
+    position: relative;
+    top: -20px;
+    left: 45%;
+}
+
+.section-under-header{
+    text-align: center;
+
+}
+.section-under-header-text{
+    color: #4845E4;
+}
+.example-text-img{
+    background-color: #F3F6F9;
+
+}
+/*////////////////////////
+    Table of Contents
+    1. Global Styles
+    2. Typography
+    3. Layout
+        3.1 Reusables
+        3.2 Other
+    4. Areas
+        4.1 Header
+        4.2 Introduction
+        etc.
+    5. Media Queries
+////////////////////////*/
+
+/* ------------------------------- 1. Global Styles -------------------------------- */
+
+/* ------------------------------- 2. Typography ----------------------------------- */
+
+/* ------------------------------- 3. Layout --------------------------------------- */
+
+/* --------------- 3.1 Reusables ----------------------- */
+
+/* --------------- 3.2 Other --------------------------- */
+
+/* ------------------------------- 4. Areas ---------------------------------------- */
+
+/* --------------- 4.1 Header ------------------------- */
+
+/* --------------- 4.2 Introduction ------------------- */
+
+/* ------------------------------- 5. Media Queries -------------------------------- */
+/*header section*/
