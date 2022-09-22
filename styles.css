@@ -1,40 +1,218 @@
-.Top-section-navbar {
+/*.........HEADER...........*/
+*{ }
+.Top-section {
     background-color: #4845E4;
-    max-width: 1200px;
-
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 0 50px 0;
 }
-.nav-bar {
+.nav-bar{
+    display: flex;
+    justify-content: flex-end;
+}
+.link-style{
+    color: white;
+    text-decoration: none;
+}
+.nav-list {
     display: flex;
     list-style: none;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content: space-between;
+    flex-basis: 350px;
     color: white;
-    margin-right: 10px;
-}
-.nav {
-
+    margin-right: 25px;
 }
 .header-titel {
+    color: white;
     text-align: center;
-    padding: 80px;
+    padding: 100px;
+    margin-bottom: 50px;
+}
+.button{
+    border: none;
+    width: 210px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    left: calc(50% - 47px);
+    border-radius: 30px;
+    background-color: #ED4385;
+    color: #F3F6F9;
+    box-shadow: rebeccapurple 4px 4px 4px;
+
 
 }
 .squiggle-line{
-    position: relative;
-    top: -20px;
-    left: 45%;
-}
+    position: absolute;
+    left: calc(50% - 30px);
+    bottom: 0;
+    height: 20%;
+    margin: 60px 0 0 0;
+    color: white;
 
+}
+/*.............SECTION UNDER HEADER..................*/
+.section-under-header{
+    padding: 75px;
+    text-align: center;
+    flex-basis: 60%;
+
+}
 .section-under-header{
     text-align: center;
-
 }
-.section-under-header-text{
-    color: #4845E4;
+.purple-text{
+    color: #5722CD;
+}
+.link-style-click-here{
+    text-decoration: none;
+}
+/*............ARTIKELS............*/
+.padding-top{
+    padding-top: 50px;
 }
 .example-text-img{
     background-color: #F3F6F9;
+}
+.rolling-article{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding: 40px;
+}
+.squiggle-line-articles{
+    max-width: 40px;
+    padding-bottom: 25px;
+}
+.rolling-div{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-right: 80px;
+    padding-left: 25px;
+    max-width: border-box 40px;
+}
+.Rolling-stone{
+    max-width: 60%;
+    box-shadow: #484646 4px 4px 4px;
+}
+.view-project-link{
+ text-decoration: none;
+}
+.variety{
+    max-width: 60%;
+    box-shadow: #484646 4px 4px 4px;
+}
+.variety-div{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-right: 25px;
+    padding-left: 80px;
+    max-width: border-box 40px;
 
+}
+.variety-art {
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: space-between;
+    padding: 40px;
+}
+.worth-art{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding: 40px;
+}
+.worth-div{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-right: 80px;
+    padding-left: 25px;
+    max-width: border-box 40px;
+}
+.worth{
+    max-width: 60%;
+    box-shadow: #484646 4px 4px 4px;
+}
+/*...............SERVICES.............*/
+.img-services{
+    width: 25%;
+}
+.services1{
+    justify-content: center;
+    width: 300px;
+    border: solid 2px;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+}
+.article-services{
+    flex-grow: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 1400px;
+    justify-content: center;
+    padding: 0 50px;
+}
+.contact-form {
+    display: flex;
+    background-color: #4845E4;
+    justify-content: center;
+}
+.form-div {
+    color: #F3F6F9;
+    flex-direction: column;
+    padding: 50px;
+}
+.title-form{
+    text-align: center;
+}
+.form-line{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+
+}
+.textarea{
+    resize: none;
+    height: 25px;
+    width: 600px;
+}
+.textarea-1{
+    resize: none;
+    height: 125px;
+    width: 600px;
+
+}
+.button2{
+    align-content: center;
+    border: none;
+    width: 210px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    left: calc(50% - 47px);
+    border-radius: 30px;
+    background-color: #ED4385;
+    color: #F3F6F9;
+    box-shadow: rebeccapurple 4px 4px 4px;
+}
+.button-placing{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+}
+.footer-text{
+    color: #F3F6F9;
+    margin: 0px;
 }
 /*////////////////////////
     Table of Contents
